@@ -2,12 +2,14 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'JAX'
+copyright = '2024, The JAX Authors. NumPy and SciPy documentation are copyright the respective authors.'
+author = 'The JAX authors'
 
-release = '0.1'
-version = '0.1.0'
+# The short X.Y version
+version = ''
+# The full version, including alpha/beta/rc tags
+release = ''
 
 # -- General configuration
 
@@ -29,7 +31,14 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
+html_theme_options = {
+    'show_toc_level': 2,
+    'repository_url': 'https://github.com/google/jax',
+    'use_repository_button': True,     # add a "link to repository" button
+    'navigation_with_keys': False,
+}
+
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
