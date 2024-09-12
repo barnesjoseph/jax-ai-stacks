@@ -1,3 +1,5 @@
-h1 {
-    color: red !important;
+.bd-sidebar-primary,
+.sidebar-toggle,
+.bd-sidebar-secondary {
+    display: none !important;
 }
