@@ -37,6 +37,7 @@ html_theme_options = {
     'repository_url': 'https://github.com/google/jax',
     'use_repository_button': True,     # add a "link to repository" button
     'navigation_with_keys': False,
+    'nosidebar': True,
 }
 
 
