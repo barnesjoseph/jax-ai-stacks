@@ -3,3 +3,7 @@
 .bd-sidebar-secondary {
     display: none !important;
 }
+
+.bd-article-container {
+    max-width: unset !important;
+}
