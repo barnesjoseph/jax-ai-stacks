@@ -32,6 +32,10 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_book_theme'
+html_static_path = ["_static", f"/docs/_static"]
+html_css_files = ["css/custom.css"]
+
+
 html_theme_options = {
     'show_toc_level': 2,
     'repository_url': 'https://github.com/google/jax',
