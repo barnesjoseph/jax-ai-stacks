@@ -21,8 +21,8 @@
 
 @media (min-width: 960px) {
     .bd-header-article,
-    .bd-article > * {
-        padding-inline: calc((100% - 88rem) / 2) !important;
+    .doc-body > section {
+        max-width: 70rem !important;
         align-self: center;
         width: -moz-available;
         width: -webkit-fill-available;
@@ -33,5 +33,12 @@
 /* Page styles */
 .hero {
     width: 100%;
-    background: url(/_static/images/hero.svg) no-repeat top right;
+    display: grid;
+    grid: auto-flow / 1fr .5fr;
+    align-items: center;
+    border-bottom: 1px solid #9aa0a6;
+}
+
+.hero h1 {
+    font: 700 54px 'Google Sans';
 }
