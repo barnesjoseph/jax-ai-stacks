@@ -33,5 +33,5 @@
 /* Page styles */
 .hero {
     width: 100%;
-    background: url(/images/hero.svg) no-repeat top right;
+    background: url(/_static/images/hero.svg) no-repeat top right;
 }
