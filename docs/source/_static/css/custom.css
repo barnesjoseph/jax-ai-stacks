@@ -39,11 +39,28 @@
 .hero {
     width: 100%;
     display: grid;
-    grid: auto-flow / 1fr .5fr;
+    grid: auto-flow / 1fr .8fr;
+    gap: 20px;
     align-items: center;
     border-bottom: 1px solid #9aa0a6;
 }
 
 .hero h1 {
-    font: 700 54px 'Google Sans';
+    font: 700 52px 'Google Sans';
+}
+
+.hero h1:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -618px;
+    left: 87px;
+    z-index: 100000;
+    width: 1500px;
+    height: 1500px;
+    background: radial-gradient(circle, rgba(94, 151, 246, 0.14) 0%, rgba(94, 151, 246, 0) 70%);
+}
+
+.hero img {
+    background: none !important;
 }
