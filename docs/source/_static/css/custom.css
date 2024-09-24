@@ -20,7 +20,11 @@
 }
 
 @media (min-width: 960px) {
-    .bd-header-article,
+    .bd-header-article {
+        justify-content: center;
+    }
+
+    .header-article-items,
     .doc-body > section {
         max-width: 70rem !important;
         align-self: center;
@@ -55,7 +59,7 @@
     display: block;
     top: -618px;
     left: 87px;
-    z-index: 100000;
+    pointer-events: none;
     width: 1500px;
     height: 1500px;
     background: radial-gradient(circle, rgba(94, 151, 246, 0.14) 0%, rgba(94, 151, 246, 0) 70%);
