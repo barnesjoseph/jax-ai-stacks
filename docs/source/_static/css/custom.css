@@ -1,3 +1,4 @@
+/* Base file modifications */
 .bd-sidebar-primary,
 .sidebar-toggle,
 .bd-sidebar-secondary {
@@ -12,9 +13,25 @@
     max-width: unset !important;
 }
 
+.bd-article {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
 @media (min-width: 960px) {
     .bd-header-article,
     .bd-article > * {
-        max-width: 88rem;
+        padding-inline: calc((100% - 88rem) / 2) !important;
+        align-self: center;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        width: fill-available;
     }
+}
+
+/* Page styles */
+.hero {
+    width: 100%;
+    background: url(/images/hero.svg) no-repeat top right;
 }
