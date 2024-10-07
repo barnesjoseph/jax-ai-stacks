@@ -1,31 +1,31 @@
 /* Base file modifications */
-.bd-sidebar-primary,
-.sidebar-toggle,
-.bd-sidebar-secondary {
+body:has(.hero) .bd-sidebar-primary,
+body:has(.hero) .sidebar-toggle,
+body:has(.hero) .bd-sidebar-secondary {
     display: none !important;
 }
 
-.bd-article-container {
+body:has(.hero) .bd-article-container {
     max-width: unset !important;
 }
 
-.bd-page-width {
+body:has(.hero) .bd-page-width {
     max-width: unset !important;
 }
 
-.bd-article {
+body:has(.hero) .bd-article {
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
 @media (min-width: 960px) {
-    .bd-header-article {
+    body:has(.hero) .bd-header-article {
         justify-content: center;
     }
 
-    .header-article-items,
-    .doc-body > section {
+    body:has(.hero) .header-article-items,
+    body:has(.hero) .doc-body > section {
         max-width: 70rem !important;
         align-self: center;
         width: -moz-available;
@@ -57,8 +57,9 @@
     content: '';
     position: absolute;
     display: block;
-    top: -618px;
-    left: 87px;
+    top: -750px;
+    left: 130px;
+    z-index: -1;
     pointer-events: none;
     width: 1500px;
     height: 1500px;
