@@ -5,6 +5,10 @@ body:has(.hero) .bd-sidebar-secondary {
     display: none !important;
 }
 
+body:has(.hero) .prev-next-footer {
+    display: none;
+}
+
 body:has(.hero) .bd-article-container {
     max-width: unset !important;
 }
