@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'JAX'
+project = 'JAX AI Stacks'
 copyright = '2024, The JAX Authors. NumPy and SciPy documentation are copyright the respective authors.'
 author = 'The JAX authors'
 
@@ -41,7 +41,6 @@ html_theme_options = {
     'repository_url': 'https://github.com/google/jax',
     'use_repository_button': True,     # add a "link to repository" button
     'navigation_with_keys': False,
-    'nosidebar': True,
 }
 
 

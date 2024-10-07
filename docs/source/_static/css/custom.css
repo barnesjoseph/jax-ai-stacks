@@ -19,6 +19,10 @@ body:has(.hero) .bd-article {
     padding: 0;
 }
 
+body:has(.hero) .bd-article > section > h1 {
+    display: none;
+}
+
 @media (min-width: 960px) {
     body:has(.hero) .bd-header-article {
         justify-content: center;
