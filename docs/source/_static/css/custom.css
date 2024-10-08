@@ -23,6 +23,10 @@ body:has(.hero) .bd-article {
     padding: 0;
 }
 
+body:has(.hero) .bd-container {
+    flex-direction: column;
+}
+
 body:has(.hero) .bd-article > section > h1 {
     display: none;
 }
