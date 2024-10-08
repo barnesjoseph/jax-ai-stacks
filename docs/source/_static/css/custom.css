@@ -46,7 +46,7 @@ body:has(.hero) .bd-article > section > h1 {
     }
 }
 
-/* Page styles */
+/* -------------- Page styles ---------------- */
 .doc-body {
     display: flex;
     flex-direction: column;
@@ -77,4 +77,31 @@ body:has(.hero) .bd-article > section > h1 {
     border-radius: 4px;
     color: white;
     font: 500 16px 'Google Sans';
+}
+
+.three-up {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.doc-body h3 {
+    font: 500 32px 'Google Sans';
+}
+
+.doc-body p,
+.doc-body ul {
+    font: 400 16px 'Roboto';
+    color: #5F6368;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.image-section.image-right {
+    flex-direction: row-reverse;
 }
