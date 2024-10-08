@@ -225,10 +225,22 @@ body:has(.hero) .bd-article > section > h1 {
 }
 
 html[data-theme="dark"] .banner {
-    background: url(../../_static/images/hero-radial.svg) no-repeat top -750px right -450px / 1500px #202124
+    background: url(../../_static/images/hero-radial.svg) no-repeat bottom -1050px left -350px / 1500px #202124;
 }
 
 html[data-theme="dark"] .doc-body p,
 html[data-theme="dark"] .doc-body ul {
     color: #9aa0a6;
+}
+
+html[data-theme="dark"] .button-primary {
+    background-color: #8ab4f8;
+}
+
+html[data-theme="dark"] .button-primary:hover {
+    background-color: #98bdf9;
+}
+
+html[data-theme="dark"] .button-primary:active {
+    background-color: #aecbfa;
 }
