@@ -40,6 +40,10 @@ body:has(.hero) .bd-article > section > h1 {
         width: -webkit-fill-available;
         width: fill-available;
     }
+
+    body:has(.hero) .doc-body > section.hero {
+        max-width: 90rem !important
+    }
 }
 
 /* Page styles */
@@ -54,27 +58,23 @@ body:has(.hero) .bd-article > section > h1 {
     grid: auto-flow / 1fr .8fr;
     gap: 20px;
     align-items: center;
-    background: #202124;
+    background: url(../../_static/images/hero-radial.svg) no-repeat top -750px right -450px / 1500px #202124;
     border-radius: 24px;
+    padding-left: 5%;
 }
 
 .hero h1 {
     font: 700 52px 'Google Sans';
+    color: white;
 }
 
-.hero h1:after {
-    content: '';
-    position: absolute;
-    display: block;
-    top: -750px;
-    left: 130px;
-    z-index: -1;
-    pointer-events: none;
-    width: 1500px;
-    height: 1500px;
-    background: radial-gradient(circle, rgba(94, 151, 246, 0.14) 0%, rgba(94, 151, 246, 0) 70%);
-}
-
-.hero img {
+.hero-image {
     background: none !important;
+}
+
+.button-primary {
+    background: #1A73E8;
+    border-radius: 4px;
+    color: white;
+    font: 500 16px 'Google Sans';
 }
