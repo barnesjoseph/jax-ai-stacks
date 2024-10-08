@@ -235,12 +235,15 @@ html[data-theme="dark"] .doc-body ul {
 
 html[data-theme="dark"] .button-primary {
     background-color: #8ab4f8;
+    color: #121212;
 }
 
 html[data-theme="dark"] .button-primary:hover {
     background-color: #98bdf9;
+    color: #121212;
 }
 
 html[data-theme="dark"] .button-primary:active {
     background-color: #aecbfa;
+    color: #121212;
 }
