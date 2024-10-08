@@ -54,7 +54,8 @@ body:has(.hero) .bd-article > section > h1 {
     grid: auto-flow / 1fr .8fr;
     gap: 20px;
     align-items: center;
-    border-bottom: 1px solid #9aa0a6;
+    background: #202124;
+    border-radius: 24px;
 }
 
 .hero h1 {
