@@ -140,6 +140,10 @@ body:has(.hero) .bd-article > section > h1 {
     margin-bottom: 100px;
 }
 
+.image-section img {
+    background-color: transparent !important;
+}
+
 .image-section.image-right {
     flex-direction: row-reverse;
 }
@@ -177,6 +181,10 @@ body:has(.hero) .bd-article > section > h1 {
     .hero h1 {
         font-size: 32px;
     }
+
+    .image-section {
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 860px) {
@@ -204,7 +212,7 @@ body:has(.hero) .bd-article > section > h1 {
     .image-section,
     .image-section.image-right {
         flex-direction: column;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 
     .image-section h3 {
@@ -214,4 +222,13 @@ body:has(.hero) .bd-article > section > h1 {
     .image-section .button {
         margin-top: 0;
     }
+}
+
+html[data-theme="dark"] .banner {
+    background: url(../../_static/images/hero-radial.svg) no-repeat top -750px right -450px / 1500px #202124
+}
+
+html[data-theme="dark"] .doc-body p,
+html[data-theme="dark"] .doc-body ul {
+    color: #9aa0a6;
 }
