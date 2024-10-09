@@ -142,6 +142,7 @@ body:has(.hero) .bd-article > section > h1 {
     margin-bottom: 100px;
 }
 
+
 .image-section img {
     background-color: transparent !important;
 }
